@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "EmmyRoo!8",
+    "database": "archivita_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "EmmyRoo!8EmmyRoo!8",
+    "database": "archivita_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  }
+}
